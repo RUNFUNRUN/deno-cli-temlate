@@ -5,11 +5,11 @@ You only need to have deno installed.
 Then just run this command
 
 ```bash
-deno run 
+deno run https://raw.githubusercontent.com/RUNFUNRUN/deno-cli-temlate/refs/heads/main/script.ts
 ```
 
 You can also compile it into a binary.
 
 ```bash
-deno compile
+deno compile -o /your/path/to/script https://raw.githubusercontent.com/RUNFUNRUN/deno-cli-temlate/refs/heads/main/script.ts
 ```
