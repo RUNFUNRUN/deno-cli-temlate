@@ -33,7 +33,7 @@ if (flags.name) {
 }
 
 if (flags.test) {
-  console.log('test is true default.');
+  console.log('test is true by default.');
 }
 
 if (flags._.length > 0) {
